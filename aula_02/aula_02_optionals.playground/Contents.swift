@@ -51,7 +51,7 @@ someFunc(parameter: "Renato")
 func getUserName(name: String?, defaultValue: String) -> String {
     if let name = name {
         return name
-    }
+    }Â˜
     
     return defaultValue
 }
