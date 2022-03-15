@@ -42,6 +42,8 @@ extension ViewController: UITableViewDataSource {
                                                  for: indexPath)
         cell.textLabel?.text = "Cell Title"
         cell.detailTextLabel?.text = "Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, Some Content, "
+        cell.imageView?.image = UIImage(systemName: "airplane")
+        cell.imageView?.tintColor = .orange
         
         return cell
     }
