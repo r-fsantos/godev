@@ -23,7 +23,7 @@ struct PasswordFormatter {
     
     private func isEmpty() -> Bool { password.isEmpty }
     
-    func formatValidation() -> PasswordInfo? {
+    func isValid() -> PasswordInfo? {
         switch password {
         case _ where isEmpty():
             return (valid: false, detail: FormatValidationMessages.empty.rawValue)

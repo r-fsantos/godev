@@ -24,15 +24,13 @@ struct EmailFormatter {
     }
     
     private func isRegexValid() -> Bool {
-        
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
-        
         return emailPred.evaluate(with: email)
     }
     
     private func isEmpty() -> Bool { email.isEmpty }
     
-    func formatValidation() -> EmailInfo? {
+    func isValid() -> EmailInfo? {
         switch email {
         case _ where isEmpty():
             return (valid: false, detail: FormatValidationMessages.empty.rawValue)

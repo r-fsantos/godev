@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881697D427E028C400CC04F2 /* EmailFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881697D327E028C400CC04F2 /* EmailFormatter.swift */; };
+		881697D627E028ED00CC04F2 /* PasswordFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881697D527E028ED00CC04F2 /* PasswordFormatter.swift */; };
 		88B442A027DF824C00CBD81D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B4429F27DF824C00CBD81D /* AppDelegate.swift */; };
 		88B442A227DF824C00CBD81D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B442A127DF824C00CBD81D /* SceneDelegate.swift */; };
 		88B442A427DF824C00CBD81D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B442A327DF824C00CBD81D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881697D327E028C400CC04F2 /* EmailFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailFormatter.swift; sourceTree = "<group>"; };
+		881697D527E028ED00CC04F2 /* PasswordFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordFormatter.swift; sourceTree = "<group>"; };
 		88B4429C27DF824C00CBD81D /* SimpleLoginView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B4429F27DF824C00CBD81D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B442A127DF824C00CBD81D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881697D227E0288D00CC04F2 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				881697D327E028C400CC04F2 /* EmailFormatter.swift */,
+				881697D527E028ED00CC04F2 /* PasswordFormatter.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
 		88B4429327DF824C00CBD81D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		88B4429E27DF824C00CBD81D /* SimpleLoginView */ = {
 			isa = PBXGroup;
 			children = (
+				881697D227E0288D00CC04F2 /* Formatter */,
 				88B4429F27DF824C00CBD81D /* AppDelegate.swift */,
 				88B442A127DF824C00CBD81D /* SceneDelegate.swift */,
 				88B442A327DF824C00CBD81D /* ViewController.swift */,
@@ -140,6 +154,8 @@
 			files = (
 				88B442A427DF824C00CBD81D /* ViewController.swift in Sources */,
 				88B442A027DF824C00CBD81D /* AppDelegate.swift in Sources */,
+				881697D627E028ED00CC04F2 /* PasswordFormatter.swift in Sources */,
+				881697D427E028C400CC04F2 /* EmailFormatter.swift in Sources */,
 				88B442A227DF824C00CBD81D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
