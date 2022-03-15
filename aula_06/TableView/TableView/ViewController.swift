@@ -23,10 +23,11 @@ class ViewController: UIViewController {
     }
 }
 
+// Controlar funções específicas da TableView
 extension ViewController: UITableViewDelegate {
-    /*
-     Controlar funções específicas da TableView
-     */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Opa, cliquei na celula \(indexPath.row)!")
+    }
 }
 
 // Controlar os dados INOUT da TableView
