@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "man-untd.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
