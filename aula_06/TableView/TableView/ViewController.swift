@@ -32,9 +32,9 @@ extension ViewController: UITableViewDelegate {
 
 // Controlar os dados INOUT da TableView
 extension ViewController: UITableViewDataSource {
-    // Quantas colunas tera minha TableView
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        30
+        30  // Quantas colunas tera minha TableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

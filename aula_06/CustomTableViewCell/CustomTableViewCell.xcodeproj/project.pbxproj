@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88B85C5D27E275340046E719 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B85C5C27E275340046E719 /* DataSource.swift */; };
 		88BBBE8527E11F6900D4A857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE8427E11F6900D4A857 /* AppDelegate.swift */; };
 		88BBBE8727E11F6900D4A857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE8627E11F6900D4A857 /* SceneDelegate.swift */; };
 		88BBBE8927E11F6900D4A857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE8827E11F6900D4A857 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88B85C5C27E275340046E719 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		88BBBE8127E11F6900D4A857 /* CustomTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BBBE8427E11F6900D4A857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BBBE8627E11F6900D4A857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,14 +60,15 @@
 		88BBBE8327E11F6900D4A857 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				88BBBE9227E11F6A00D4A857 /* Info.plist */,
 				88BBBE8427E11F6900D4A857 /* AppDelegate.swift */,
+				88BBBE9827E1355100D4A857 /* CustomTableViewCell.swift */,
 				88BBBE8627E11F6900D4A857 /* SceneDelegate.swift */,
 				88BBBE8827E11F6900D4A857 /* ViewController.swift */,
-				88BBBE8A27E11F6900D4A857 /* Main.storyboard */,
-				88BBBE9827E1355100D4A857 /* CustomTableViewCell.swift */,
 				88BBBE8D27E11F6A00D4A857 /* Assets.xcassets */,
 				88BBBE8F27E11F6A00D4A857 /* LaunchScreen.storyboard */,
-				88BBBE9227E11F6A00D4A857 /* Info.plist */,
+				88BBBE8A27E11F6900D4A857 /* Main.storyboard */,
+				88B85C5C27E275340046E719 /* DataSource.swift */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				88BBBE8927E11F6900D4A857 /* ViewController.swift in Sources */,
 				88BBBE8527E11F6900D4A857 /* AppDelegate.swift in Sources */,
 				88BBBE9927E1355100D4A857 /* CustomTableViewCell.swift in Sources */,
+				88B85C5D27E275340046E719 /* DataSource.swift in Sources */,
 				88BBBE8727E11F6900D4A857 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
