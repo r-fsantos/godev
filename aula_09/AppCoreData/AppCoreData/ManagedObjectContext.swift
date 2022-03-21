@@ -9,7 +9,6 @@ import UIKit
 import CoreData
 import Foundation
 
-
 typealias onComletionHandler = (String) -> Void
 
 protocol managedProtocol {
@@ -40,7 +39,7 @@ class ManagedObjectContext: managedProtocol, managedSaveProtocol,               
 
         return appDelegate.persistentContainer.viewContext
     }
-    
+        
     func getPersons() -> [Person] {
         var listPersons: [Person] = []
         
@@ -112,5 +111,4 @@ class ManagedObjectContext: managedProtocol, managedSaveProtocol,               
             print("Could not save \(error.localizedDescription)")
         }
     }
-
 }
