@@ -7,6 +7,8 @@
 
 import Foundation
 
+typealias Users = [User]
+
 // MARK: - User
 struct User: Codable {
     let id: Int
@@ -25,5 +27,3 @@ struct Address: Codable {
 struct Company: Codable {
     let name: String
 }
-
-typealias Users = [User]
