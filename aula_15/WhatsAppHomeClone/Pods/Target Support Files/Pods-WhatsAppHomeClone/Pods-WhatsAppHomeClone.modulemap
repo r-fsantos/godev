@@ -1,0 +1,6 @@
+framework module Pods_WhatsAppHomeClone {
+  umbrella header "Pods-WhatsAppHomeClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
