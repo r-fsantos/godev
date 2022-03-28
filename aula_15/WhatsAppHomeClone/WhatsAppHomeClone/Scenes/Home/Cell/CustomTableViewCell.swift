@@ -21,18 +21,15 @@ class CustomTableViewCell: UITableViewCell {
     
     lazy var contentStackView: UIStackView = {
         let stack = UIStackView()
-        
         stack.axis = .vertical
         stack.spacing = 10 // espaco entre os elementos
         stack.contentMode = .top
         stack.translatesAutoresizingMaskIntoConstraints = false
-        
         return stack
     }()
     
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        
         label.text = "Mussum Ipsum"
         label.textColor = .systemGray
         // TODO: Create a metrics file
@@ -44,11 +41,9 @@ class CustomTableViewCell: UITableViewCell {
     
     lazy var descritionLabel: UILabel = {
         let label = UILabel()
-        
         label.text = "Mussum Ipsum, cacilds vidis litro abertis."
         label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
-
         return label
     }()
     
