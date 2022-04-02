@@ -11,10 +11,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var collection: UICollectionView!
     
-//    let users: [User] = [.init(id: 1, name: "r-felicio", photo: "renato", company: .init(name: "42SP")),
-//                         .init(id: 1, name: "Renato", photo: "renato", company: .init(name: "go!dev")),
-//                         .init(id: 1, name: "Rê", photo: "renato", company: .init(name: "Flux")),
-//                        ]
     lazy var users = [User]() {
         didSet {
             DispatchQueue.main.async {
@@ -25,7 +21,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         delegates()
         getUsers()
         registerCell()

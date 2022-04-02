@@ -129,7 +129,5 @@ class ViewController: UIViewController {
             descriptionLabel.centerYAnchor.constraint(equalTo: content.centerYAnchor),
         ])
     }
-    
-    
 }
 
