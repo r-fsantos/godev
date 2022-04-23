@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     }
     
     private func setUpWebView() {
-        let url = URL(string: "https://www.apple.com")
+        let url = URL(string: "https://github.com/vsouza/awesome-ios")
         let request = URLRequest(url: url!)
         webView.load(request)
 
